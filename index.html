@@ -13,11 +13,7 @@
       crossorigin="anonymous"
     />
 
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="toots.css"
-    />
+    <link rel="stylesheet" type="text/css" href="toots.css" />
 
     <title>Mastodon Feed Example</title>
   </head>
@@ -48,7 +44,16 @@
         </div>
 
         <div class="row">
-          <div class="col">
+          <div class="col-sm-12 col-lg-5">
+            <h2>Latest News</h2>
+            <a
+              class="mastodon-feed"
+              href="https://mastodon.social/@Mastodon"
+              data-toot-limit="4"
+              >Loading the 4 latest posts</a
+            >
+          </div>
+          <div class="col-sm-12 col-lg-7">
             <h2>About</h2>
             <p>
               Mastodon Feed Embedded using
@@ -93,15 +98,6 @@
               natoque penatibus et magnis dis parturient montes nascetur
               ridiculus.
             </p>
-          </div>
-          <div class="col">
-            <h2>Latest News</h2>
-            <a
-              class="mastodon-feed"
-              href="https://mastodon.social/@Mastodon"
-              data-toot-limit="4"
-              >Loading the 4 latest posts</a
-            >
           </div>
         </div>
 
